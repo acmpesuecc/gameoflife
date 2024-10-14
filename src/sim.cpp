@@ -37,7 +37,9 @@ int main(void) {
 
 	Texture2D button = LoadTexture("button.png");
 
-    while (!context.gotFinish() && !WindowShouldClose()) { BeginDrawing(); ClearBackground(WHITE);
+    while (!context.gotFinish() && !WindowShouldClose()) {
+        BeginDrawing();
+        ClearBackground(WHITE);
 
         int mouse_x = GetMouseX();
         int mouse_y = GetMouseY();
